@@ -4,5 +4,6 @@ queue_rules:
     queue_conditions: []
     merge_conditions:
       - check-success = @github-actions/vm6-extends-delay
+      - label = vm6-extends-never
     merge_method: merge
     checks_timeout: null
